@@ -1,0 +1,3 @@
+[submodule "pambdajs-playground"]
+	path = pambdajs-playground
+	url = git@github.com:tim-hub/pambdajs-playground.git
