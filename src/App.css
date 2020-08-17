@@ -24,8 +24,14 @@
   color: white;
 }
 
+.Content-view {
+  min-height: 100vh;
+}
+
 .App-link {
   color: #61dafb;
+  margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 
 @keyframes App-logo-spin {

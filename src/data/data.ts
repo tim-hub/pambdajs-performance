@@ -1,3 +1,11 @@
+export const csv100 = `id,Process Single,Process Count 1,Process Count 2,Process Count 3,Process Count 4,Process Count 5,Process Count 6,Process Count 7,Process Count 8,Process Count 9,Process Count 10,Process Count 11,Process Count 12,Process Count 13,Process Count 14,Process Count 15,Process Count 16,Process Count 17,Process Count 18,Process Count 19,Process Count 20,Process Count 21,Process Count 22,Process Count 23,Process Count 24
+1,0,47,45,44,50,49,45,42,43,45,44,44,43,45,44,44,43,43,44,42,42,43,45,46,44
+10,0,44,51,57,58,65,71,92,98,93,122,123,120,125,122,114,122,125,118,116,120,121,116,101,117
+100,1,47,49,54,60,65,71,86,99,115,106,111,131,135,172,158,176,192,188,211,218,232,239,220,258
+1000,1,51,51,55,59,65,89,80,109,114,118,124,133,145,156,168,155,194,193,196,209,217,227,243,255
+10000,1,59,58,60,66,71,85,100,117,113,112,146,145,145,158,192,192,185,211,214,214,239,240,257,251
+100000,10,128,133,125,119,118,129,128,141,147,172,167,176,186,214,214,221,227,254,243,269,270,310,313,308`;
+
 export const csv1k = `id,Process Single,Process Count 1,Process Count 2,Process Count 3,Process Count 4,Process Count 5,Process Count 6,Process Count 7,Process Count 8,Process Count 9,Process Count 10,Process Count 11,Process Count 12,Process Count 13,Process Count 14,Process Count 15,Process Count 16,Process Count 17,Process Count 18,Process Count 19,Process Count 20,Process Count 21,Process Count 22,Process Count 23,Process Count 24
 1,0,47,44,43,43,44,44,47,49,49,44,45,47,44,49,50,48,47,44,44,44,43,43,43,45
 10,0,44,48,52,59,68,73,85,96,111,120,117,122,118,116,126,118,121,116,116,104,126,128,126,117
@@ -5,3 +13,19 @@ export const csv1k = `id,Process Single,Process Count 1,Process Count 2,Process 
 1000,0,51,53,61,62,67,75,83,95,126,132,138,140,145,159,189,199,189,208,205,219,221,226,231,254
 10000,7,64,57,62,66,71,78,116,128,102,131,145,160,159,173,168,201,213,213,207,243,267,255,244,259
 100000,62,166,137,128,125,126,127,131,151,172,168,175,191,214,248,237,236,230,273,265,288,290,287,298,315`;
+
+export const csv10k = `id,Process Single,Process Count 1,Process Count 2,Process Count 3,Process Count 4,Process Count 5,Process Count 6,Process Count 7,Process Count 8,Process Count 9,Process Count 10,Process Count 11,Process Count 12,Process Count 13,Process Count 14,Process Count 15,Process Count 16,Process Count 17,Process Count 18,Process Count 19,Process Count 20,Process Count 21,Process Count 22,Process Count 23,Process Count 24
+1,0,40,39,39,38,37,46,48,45,46,51,49,49,50,48,45,43,44,45,45,44,44,44,45,44
+10,2,47,49,54,59,65,69,86,89,91,117,119,122,118,112,118,108,99,106,119,115,121,117,119,113
+100,1,48,48,52,59,64,69,84,108,121,131,154,125,196,185,185,182,172,209,204,217,226,232,269,264
+1000,7,58,54,56,60,68,72,90,88,124,123,134,141,141,149,202,195,240,220,201,221,222,276,262,259
+10000,58,96,74,75,77,80,81,98,121,113,139,141,157,159,181,189,210,195,223,241,231,250,265,268,258
+100000,511,630,360,283,239,222,224,264,247,235,252,260,255,295,305,298,302,321,324,343,394,337,399,383,400`;
+
+export const csv100k = `id,Process Single,Process Count 1,Process Count 2,Process Count 3,Process Count 4,Process Count 5,Process Count 6,Process Count 7,Process Count 8,Process Count 9,Process Count 10,Process Count 11,Process Count 12,Process Count 13,Process Count 14,Process Count 15,Process Count 16,Process Count 17,Process Count 18,Process Count 19,Process Count 20,Process Count 21,Process Count 22,Process Count 23,Process Count 24
+1,3,53,51,52,51,52,49,49,47,45,45,46,49,46,47,48,46,45,46,45,45,46,46,45,45
+10,2,48,53,57,65,71,79,91,92,123,126,124,125,127,128,128,129,127,126,135,123,110,110,130,132
+100,13,67,63,65,66,72,77,97,95,128,131,144,146,142,166,189,203,198,194,223,225,237,252,266,295
+1000,121,158,97,88,100,105,90,108,121,146,160,156,173,168,186,195,196,225,227,225,256,258,298,282,313
+10000,1028,1046,555,400,322,292,272,286,340,308,334,380,354,365,344,375,355,363,386,400,446,493,466,473,639
+100000,10724,10883,5399,3649,3146,2287,2216,2196,2412,2251,2266,2186,2291,2354,2324,2367,2293,2309,2294,2337,2711,2431,2301,2389,2808`;
